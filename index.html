@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>RPS Game</title>
+        <link rel="icon" href="images/favicon.png" type="image/png">
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/style.css">
+        <script src="js/game.js"></script>
+    </head>
+    <body>
+        <div id="top">
+            <ul class="list-inline" id="choices">
+                <li><img src="images/rock.png" onclick="play('rock')"></li>
+                <li><img src="images/paper.png" onclick="play('paper')"></li>
+                <li><img src="images/scissors.png" onclick="play('scissors')"></li>
+            </ul>
+            <h1>
+                Games: <strong><span id="games">0</span></strong> /
+                Ties: <strong><span id="ties">0</span></strong> /
+                You: <strong><span id="player">0</span></strong> /
+                Computer: <strong><span id="computer">0</span></strong>
+            </h1>
+            <h3 id="result">
+                This is probably the worst game I've ever made, but I'd still appreciate it if you played it.
+                I got bored one day and decided to write this for fun. Just click on the rock, paper, or scissor 
+                to start playing! :)
+            </h3>
+        </div>
+        <div id="bottom">
+            &copy; 2016 Gamecrafter
+        </div>
+    </body>
+</html>
