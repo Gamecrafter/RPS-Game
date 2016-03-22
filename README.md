@@ -6,3 +6,6 @@ decided to write this for fun. This was actually my very first browser "game".
 - CSS
 - HTML
 - JavaScript
+
+###Resources utilized:
+- Bootstrap
