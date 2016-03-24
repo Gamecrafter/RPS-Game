@@ -28,6 +28,10 @@ body{
 #choices li:active{
     border: inset;
 }
+#info{
+    font-size: 36px;
+    text-align: center;
+}
 #bottom{
     background: #a9a9a9;
     bottom: 0;
